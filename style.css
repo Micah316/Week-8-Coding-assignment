@@ -1,0 +1,183 @@
+#nav {
+    padding: 30px;
+    width: fit-content;
+    border-style:solid;
+    border-width:10px;
+    border-color: red;
+    margin:2px;
+}
+   
+#active-link-a {
+    color:whitesmoke;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:4em;
+}
+
+#active-link-b {
+    color:whitesmoke;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:4em;
+}
+
+#active-link-c {
+    color:whitesmoke;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:4em;
+}
+
+body {
+   background-color: black;
+    font-style:white;
+    font-size:1rem;       
+}
+
+img {
+    width:30em;
+    height:30em;
+}
+
+.body-home {
+    background-color: rgb(1, 36, 68);
+}
+
+.img-index {     
+ width:500px;
+height:250px;
+object-fit:contain;
+border-radius:43%;
+}
+
+.img-index {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left:0%;
+    }
+    50% {
+        margin-left: 300px;
+    }
+    100% {
+        margin-left: 0%;
+    }
+}
+
+.p-index {
+    color:whitesmoke;
+    font-size:xx-large;
+    padding-left: 5%;
+}
+
+.body-about {
+    background-color: rgb(1, 36, 68);
+}
+
+.img-about {
+    width:550px;
+    height:250px;
+    object-fit:contain;
+    border-radius:43%;
+}
+
+.header-about{
+    font-size:x-large;
+    color: white;
+    font-weight:700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:10%;
+
+}
+.caption-about-1 {
+    font-size:xx-large;
+    color:white;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:0%;
+}
+.caption-about-2 {
+    font-size:medium;
+    color:white;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:0%;
+}
+
+.p-1-about {
+    font-size:large;
+    color:white;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 10%;
+}
+
+.p-2-about {
+    font-size:medium;
+    color:white;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 10%;
+}
+
+.body-contact {
+    background-color: rgb(1, 36, 68);
+}
+
+.header-contact {
+    font-size:x-large;
+    color: white;
+    font-weight:700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:10%;
+}
+
+#table-contact {
+    font-size:large;
+    color:white;
+    font-weight:600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:0%;
+}
+
+#contact-1-facebook {
+    font-size:small;
+    color:white;
+    font-weight:600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:0%;
+}
+#contact-2-insta {
+    font-size:small;
+    color:white;
+    font-weight:600;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:0%;
+}
+
+.form-contact {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-weight:bolder;
+    color:black;
+    text-align: center;
+}
+
+#contact-us {
+    font-size:larger;
+    color:white;
+    font-weight: 700;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 10%;
+}
+
+.submit-button {
+    width:15%;
+    font-size:x-large;
+    color:rgb(#878282);
+    border:rgb(#878282);
+    border-style: solid;
+    border-width:7px;
+
+}
